@@ -1,0 +1,13 @@
+<!--pages/about/about.wxml-->
+<view class="item">
+    <button wx:if="{{flag}}" bindtap="getUserInfo">授权登录</button>
+    <view wx:else class="info">
+        <view class="image">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <view class="text">
+            <open-data type="userNickName" ></open-data>
+        </view>
+    </view>
+</view>
+<!--  -->

@@ -1,0 +1,5 @@
+<!--pages/item/item.wxml-->
+<import src="../../template/itemList/itemList"></import>
+<block wx:for="{{list}}" wx:key="index">
+    <template is="itemList" data="{{item}}"></template>
+</block>

@@ -1,0 +1,6 @@
+<!--pages/citys/citys.wxml-->
+<view class="city">推荐</view>
+<button class="position" size="mini" bindtap="getLocation">定位</button>
+<view class="hotcity">热门城市</view>
+<button size="mini" wx:for="{{hotcitys}}" wx:key="index" class="item" bindtap="changeCity" data-city="{{item}}">{{item}}</button>
+

@@ -1,0 +1,20 @@
+/* pages/produectDetail/produectDetail.wxss */
+page{
+    background-color: #f5f5f5;
+}
+.title{
+    padding: 20rpx;
+    font-size: 36rpx;
+    background-color: #fff;
+}
+image{
+    width: 100%;
+}
+.price{
+    padding: 20rpx;
+    background-color: #fff;
+    /* text-align: right; */
+}
+.content{
+    text-indent: 2em;
+}

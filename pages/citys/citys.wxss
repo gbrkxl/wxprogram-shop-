@@ -1,0 +1,15 @@
+/* pages/citys/citys.wxss */
+.city,.hotcity{
+    padding: 30rpx;
+}
+.position{
+    margin: 20rpx;
+    background-color: #eee;
+}
+.item{
+    background-color: #fff;
+    border: 1rpx solid #999;
+    border-radius: 20rpx;
+    margin: 0 10rpx;
+    font-size: 28rpx !important;
+}

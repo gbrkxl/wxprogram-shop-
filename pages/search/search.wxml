@@ -1,0 +1,9 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+    <input bindinput="searchInput" focus="true" type="text" placeholder="请输入要搜索的内容"/>
+</view>
+
+<import src="../../template/itemList/itemList"></import>
+<block wx:for="{{list}}" wx:key="index">
+    <template is="itemList" data="{{item}}"></template>
+</block>

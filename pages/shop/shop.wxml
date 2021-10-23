@@ -1,0 +1,25 @@
+<!--pages/shop/shop.wxml-->
+<!-- 导航栏开始 -->
+<view class="nav">
+    <navigator class="citys" url="../citys/citys">{{citys}}</navigator>
+    <navigator class="search" url="../search/search">
+        <view>请输入要搜索的商品</view>
+    </navigator>
+</view>
+<!-- 导航栏结束 -->
+<!-- 列表开始 -->
+<view class="list">
+    <navigator class="item" wx:for="{{items}}" wx:key="index" url="../item/item?id={{item.id}}">
+        <image src="{{item.image}}"></image>
+        <view>{{item.name}}</view>
+    </navigator>
+</view>
+<!-- 列表结束 -->
+<!-- table开始 -->
+<import src="../../template/itemList/itemList"></import>
+<block wx:for="{{itemArr}}" wx:key="index">
+    <template is="itemList" data="{{item}}"></template>
+</block>
+<view class="msg">{{msg}}</view>
+
+<!-- table结束 -->

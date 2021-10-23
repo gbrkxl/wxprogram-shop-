@@ -1,0 +1,15 @@
+/* pages/indexDetail/indexDetail.wxss */
+.title{
+    padding: 20rpx;
+}
+image{
+    width: 100%;
+    height: 400rpx;
+}
+.detail{
+    text-indent: 2em;
+    font-size: 28rpx;
+    line-height: 32rpx;
+    text-align: justify;
+    padding: 30rpx;
+}

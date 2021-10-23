@@ -1,0 +1,14 @@
+/* pages/search/search.wxss */
+@import '../../template/itemList/itemList.wxss';
+page{
+    background-color: #f5f5f5;
+}
+.search{
+    background-color: #fff;
+    padding: 20rpx;
+}
+input{
+    background-color: #f5f5f5;
+    font-size: 28rpx;
+    padding-left: 20rpx;
+}

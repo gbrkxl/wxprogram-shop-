@@ -1,0 +1,5 @@
+<!--pages/produectDetail/produectDetail.wxml-->
+<view class="title">{{info.name}}</view>
+<image src="{{info.pic}}"></image>
+<view class="price">价格:{{info.price}}</view>
+<view class="content">{{info.details}}</view>
